@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Театр «Авансцена»</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+
+    
+<header class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">Театр <span>Авансцена</span></div>
+
+            <input type="checkbox" id="menuCheckbox" class="menu-toggle">
+            <div class="menu-icon">
+                <label for="menuCheckbox">
+                    <i class="fas fa-bars open-icon"></i>
+                    <i class="fas fa-times close-icon" style="display: none;"></i>
+                </label>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#shows">Афиша</a></li>
+                <li><a href="#about">О театре</a></li>
+                <li><a href="#troupe">Труппа</a></li>
+                <li><a href="#tickets">Билеты</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-badge">СЕЗОН 2025 / 2026</span>
+                <h1 class="hero-title">Искусство,<br> вдохновляющее вечность</h1>
+                <p class="hero-desc">Откройте для себя мир высокого драматического искусства. Классические постановки, современные премьеры и неподражаемая атмосфера «Авансцены».</p>
+                <div class="hero-buttons">
+                    <a href="#tickets" class="btn btn-primary">Купить билеты</a>
+                    <a href="#shows" class="btn btn-outline">Афиша</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="image/hero-image.jpg" alt="Театральная сцена" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section id="shows" class="shows">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Ближайшие спектакли</h2>
+                <p style="margin-top: 20px; color: #5a534c;">Выберите свой вечер в театре и погрузитесь в магию сцены</p>
+            </div>
+            <div class="shows-grid">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('image/card-img.jpg');"></div>
+                    <div class="card-content">
+                        <div class="card-cat">Драма / Трагедия</div>
+                        <h3 class="card-title">Вишнёвый сад</h3>
+                        <div class="card-date"><i class="far fa-calendar-alt"></i> 15 мая, 19:00</div>
+                        <p>Классическая постановка по пьесе А.П. Чехова в современном прочтении.</p>
+                        <button class="btn-card">Подробнее <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('image/card-img2.jpg');"></div>
+                    <div class="card-content">
+                        <div class="card-cat">Мюзикл / Феерия</div>
+                        <h3 class="card-title">Призрак Оперы</h3>
+                        <div class="card-date"><i class="far fa-calendar-alt"></i> 22 мая, 18:30</div>
+                        <p>Легендарный мюзикл с потрясающими декорациями и живым оркестром.</p>
+                        <button class="btn-card">Подробнее <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('image/card-img3.jpg');"></div>
+                    <div class="card-content">
+                        <div class="card-cat">Трагикомедия</div>
+                        <h3 class="card-title">Слуга двух господ</h3>
+                        <div class="card-date"><i class="far fa-calendar-alt"></i> 30 мая, 19:30</div>
+                        <p>Искромётная комедия положений по Карло Гольдони. Блестящий актерский ансамбль.</p>
+                        <button class="btn-card">Подробнее <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container about-inner">
+            <div class="about-text">
+                <h2 class="section-title">О театре</h2>
+                <p>Основанный в 1998 году, театр «Авансцена» стал неотъемлемой частью культурной жизни города. За четверть века мы выпустили более 120 премьер, воспитали тысячи зрителей, которые полюбили театральное искусство.</p>
+                <p>Наша миссия — пробуждать эмоции и дарить эстетическое наслаждение. Мы соединяем классические традиции с новаторскими решениями, приглашая выдающихся режиссёров и художников.</p>
+                <div class="about-stats">
+                    <div class="stat"><div class="stat-number">25+</div><div>лет на сцене</div></div>
+                    <div class="stat"><div class="stat-number">120+</div><div>постановок</div></div>
+                    <div class="stat"><div class="stat-number">150k</div><div>зрителей в год</div></div>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="image/about-img.jpg" alt="Интерьер театра">
+            </div>
+        </div>
+    </section>
+
+    <section id="troupe" class="troupe">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Звёзды труппы</h2>
+                <p style="margin-top: 16px;">Талант и преданность искусству на одной сцене</p>
+            </div>
+            <div class="troupe-grid">
+                <div class="actor-card"><div class="actor-img" style="background-image: url('image/avatar1.jpg');"></div><div class="actor-name">Елена Варнава</div><div class="actor-role">Народная артистка</div></div>
+                <div class="actor-card"><div class="actor-img" style="background-image: url('image/avatar2.webp');"></div><div class="actor-name">Алексей Серебряков</div><div class="actor-role">Заслуженный артист</div></div>
+                <div class="actor-card"><div class="actor-img" style="background-image: url('image/avatar3.webp');"></div><div class="actor-name">Марина Зорина</div><div class="actor-role">Прима театра</div></div>
+                <div class="actor-card"><div class="actor-img" style="background-image: url('image/avatar4.jpg');"></div><div class="actor-name">Дмитрий Князев</div><div class="actor-role">Художественный руководитель</div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tickets" class="tickets">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title" style="color:#f7e8da;">Заказать билеты</h2>
+                <p style="color:#cdc2b6; margin-top: 8px;">Оставьте заявку, и наш менеджер свяжется с вами для бронирования</p>
+            </div>
+            <div class="ticket-flex">
+                <div class="info-block">
+                    <div class="contact-item"><i class="fas fa-map-marker-alt"></i> г. Москва, Театральная пл., 5</div>
+                    <div class="contact-item"><i class="fas fa-phone-alt"></i> +7 (495) 123-45-67</div>
+                    <div class="contact-item"><i class="fas fa-envelope"></i> info@avanscena.theatre</div>
+                    <div class="contact-item"><i class="fas fa-clock"></i> Касса: 10:00 – 20:00 (без выходных)</div>
+                    <div style="margin-top: 30px;">
+                        <i class="fab fa-instagram"></i> <i class="fab fa-telegram"></i> <i class="fab fa-vk"></i>
+                    </div>
+                </div>
+                <div class="form-block">
+                    <form action="#" method="get">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required name="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Номер телефона" required name="phone">
+                        </div>
+                        <div class="form-group">
+                            <select name="spectacle">
+                                <option value="Вишнёвый сад">Вишнёвый сад — 15 мая</option>
+                                <option value="Призрак Оперы">Призрак Оперы — 22 мая</option>
+                                <option value="Слуга двух господ">Слуга двух господ — 30 мая</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="2" placeholder="Количество билетов / комментарий" name="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Отправить заявку <i class="fa-solid fa-ticket"></i></button>
+                        <p style="font-size:0.75rem; margin-top: 15px; opacity:0.7;">Нажимая кнопку, вы соглашаетесь с условиями обработки данных</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo" style="color:#d8c9b5;">Театр <span>Авансцена</span></div>
+                <p>Сцена, объединяющая поколения. Искренность и профессионализм на каждом спектакле.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Меню</h4>
+                <p><a href="#home" style="color:#cfc6bc; text-decoration:none;">Главная</a></p>
+                <p><a href="#shows" style="color:#cfc6bc; text-decoration:none;">Афиша</a></p>
+                <p><a href="#about" style="color:#cfc6bc; text-decoration:none;">О театре</a></p>
+            </div>
+            <div class="footer-col">
+                <h4>Мы в соцсетях</h4>
+                <div class="social">
+                    <i class="fab fa-instagram"></i> <i class="fab fa-telegram"></i> <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2025 Театр «Авансцена». Все права защищены.
+        </div>
+    </div>
+</footer>
+</body>
+</html>
